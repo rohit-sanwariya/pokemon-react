@@ -8,3 +8,11 @@
     background-color: white;
     border-radius: 5px;
 }
+
+.Pokecard-title{
+    font-size: 80;
+
+}
+.Pokecard-data{
+font-size: 80%;
+}
