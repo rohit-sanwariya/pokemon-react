@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/Pokecard.css'
 const POKE_API ="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
-const REMAINING = "${id}.png."
+ 
  class Pokecard extends Component {
     render() {
         const imgSrc = `${POKE_API}${this.props.id}.png`
